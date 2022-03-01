@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "Test-Schematics",
+  "title": "Test Schema",
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "string",
+      "description": "Entity",
+      "x-prompt": "The name of the entity"
+    },
+    "property": {
+      "type": "string",
+      "description": "Property",
+      "x-prompt": "The name of the property"
+    }
+  },
+  "required": [
+    "entity"
+  ]
+}
